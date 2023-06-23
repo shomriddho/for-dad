@@ -20,7 +20,35 @@ body {
     width: 100%;
     z-index: 100;
 }
+#SOLUTION{
+    font-family: 'Pacifico';
+    height: 200vh;
+    background-image: url("img/img15.jpg");
+    background-color: #cccccc;
 
+  
+ 
+    background-size:cover;
+    position: relative;
+    
+}
+.
+h5{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-size: 2em;
+}
+.khata{
+   
+    height: 200vh;
+    width: 100%;
+}
+.line{
+    height: 2px;
+    width: 100%;
+    
+    background-color: #000;
+}
 .topnav a {
     float: right;
     display: block;
