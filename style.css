@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 body {
     margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #00d9ff8c;
+    box-sizing: border-box;
+   
 }
-
+/* font-family: 'Pacifico', cursive; */
 .topnav {
     overflow: hidden;
     background-color: #ffffff;
@@ -36,16 +39,30 @@ body {
 
 
 }
-
+.head{
+    text-align: center;
+    font: 2.4em sans-serif;
+    font-weight: 900;
+    background-color: rgb(243, 253, 130);
+    box-shadow:  8px 20px 9px black;
+    padding-top: 1%;
+}
+.uc{
+    transform: rotate(3deg);
+    margin: 0;
+    width: 23.5% !important;
+    background-color: rgb(246, 98, 98) !important;
+}
 /* Create four equal columns that floats next to each other */
 .column {
     float: left;
     width: 24%;
+    
     padding: 10px;
-    background-color: aliceblue;
+    background-color: rgb(243, 253, 130);
     box-shadow: -20px -2px 20px 3px black;
     padding: 3%;
-    margin-bottom: 15vh;
+    margin-bottom: 5vh;
     margin-left: 1%;
     
 
@@ -67,9 +84,12 @@ body {
 /* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 1000px) {
     .column {
-        width: 100%;
+        width: 100% !important;
         margin: 0;
+        margin-bottom: 15px;
+        transform: rotate(0deg) !important;
     }
+
 }
 
 .topnav .icon {
@@ -114,10 +134,19 @@ html {
 
 #ABOUT-US {
     padding-top: 12vh;
+    
 }
 
 #PRODUCTS {
     height: 100vh;
+    background-image: url("img/wood.jpg");
+    background-color: #cccccc;
+    height:100%;
+  
+ 
+    background-size:cover;
+    position: relative;
+    
 }
 
 * {
@@ -134,11 +163,15 @@ html {
 
 }
 
+
 /* Hide the images by default */
 .mySlides {
     display: none;
 }
-
+a{
+    text-decoration: none;
+    color: #000;
+}
 /* Next & previous buttons */
 .prev,
 .next {

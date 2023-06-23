@@ -1,0 +1,51 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* The image used */
+    background-image: url("/img/img9.jpeg");
+    color: white;
+    /* Full height */
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.back{
+    color: rgb(47, 47, 253);
+    text-decoration: none;
+    font: 1.5em sans-serif;
+    padding: 1%;
+
+}
+a{
+    text-decoration: none;
+}
+main{
+    z-index: 109;
+    margin-top: 40vh;
+    width: 100%;
+    height: 100vh;
+   
+    
+    background-color: azure;
+}
+
+h1{
+    padding-top: 2%;
+
+    font-size: 2.5rem;
+    color: #000;
+    text-align: center;
+    font-family: sans-serif;
+}
+p{
+    
+    font: 1.2em sans-serif;
+    text-align: center;
+    padding: 3%;
+    color: #000;
+}
