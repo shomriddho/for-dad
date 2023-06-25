@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caveat&family=La+Belle+Aurore&family=Pacifico&display=swap');
+
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-   
+
 }
-/* font-family: 'Pacifico', cursive; */
+
 .topnav {
     overflow: hidden;
     background-color: #ffffff;
@@ -20,35 +21,70 @@ body {
     width: 100%;
     z-index: 100;
 }
-#SOLUTION{
-    font-family: 'Pacifico';
-    height: 200vh;
+
+#SOLUTION {
+    font-family: 'Caveat';
+    height: 150vh;
     background-image: url("img/img15.jpg");
     background-color: #cccccc;
 
-  
- 
-    background-size:cover;
+
+
+    background-size: cover;
     position: relative;
-    
+
 }
-.
-h5{
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+
+#SERVICES {
+    font-family: 'Caveat';
+    height: 150vh;
+    background-image: url("img/img15.jpg");
+    background-color: #cccccc;
+
     font-size: 2em;
+
+    background-size: cover;
+    position: relative;
+
+
+
 }
-.khata{
-   
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+#CONTACT-US {
+    height: 50vh;
+}
+
+
+.khata {
+
     height: 200vh;
-    width: 100%;
+
 }
-.line{
-    height: 2px;
-    width: 100%;
-    
-    background-color: #000;
+
+@media screen and (max-width: 720px) {
+    h1 {
+        height: 1em !important;
+    }
 }
+
+.line {
+    height: 5vh;
+    width: 100%;
+    font-size: 2.3em;
+    text-decoration: none;
+
+}
+
+.line-box {
+    border-top: 2px solid black;
+
+}
+
 .topnav a {
     float: right;
     display: block;
@@ -59,65 +95,74 @@ h5{
     font-size: 19px;
     border: 1px solid rgb(0, 0, 0);
 
-    box-shadow: 6px 0px 20px 4px;
+    box-shadow: 7px 1px 20px black;
 }
+
 
 .topnav a:hover {
     background-color: rgba(0, 204, 255, 0.797);
 
 
 }
-.head{
+
+.head {
     text-align: center;
     font: 2.4em sans-serif;
     font-weight: 900;
     background-color: rgb(243, 253, 130);
-    box-shadow:  8px 20px 9px black;
+    box-shadow: 8px 20px 9px black;
     padding-top: 1%;
 }
-.uc{
+
+.uc {
     transform: rotate(3deg);
     margin: 0;
     width: 23.5% !important;
     background-color: rgb(246, 98, 98) !important;
 }
-/* Create four equal columns that floats next to each other */
+
 .column {
     float: left;
     width: 24%;
-    
+
     padding: 10px;
     background-color: rgb(243, 253, 130);
     box-shadow: -20px -2px 20px 3px black;
     padding: 3%;
     margin-bottom: 5vh;
     margin-left: 1%;
-    
+
 
 }
 
-/* .row {
-    display: flex;
-    justify-content: center;
-} */
+.list {
+    font-size: 2.3em;
+}
 
-/* Clear floats after the columns */
+.row-2 {
+    height: 40vh;
+}
+
+.khata-text {
+    text-align: center;
+    padding: 15px;
+    font-size: 2.5em;
+}
+
+@media screen and (max-width: 1000px) {
+    .column {
+        width: 99% !important;
+        transform: rotate(0deg) !important;
+    }
+}
+
+
+
 .row:after {
     content: "";
     display: table;
 
     clear: both;
-}
-
-/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 1000px) {
-    .column {
-        width: 100% !important;
-        margin: 0;
-        margin-bottom: 15px;
-        transform: rotate(0deg) !important;
-    }
-
 }
 
 .topnav .icon {
@@ -138,6 +183,67 @@ h5{
 html {
     scroll-behavior: smooth;
 
+}
+
+
+.column-2 {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+@media screen and (max-width: 850px) {
+    .column-2 {
+        width: 100%;
+        display: block;
+    }
+
+    .row-2 {
+        height: 90vh;
+        width: 100%;
+
+    }
+}
+
+.fake {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title-2 {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
 }
 
 @media screen and (max-width: 1000px) {
@@ -161,27 +267,28 @@ html {
 }
 
 #ABOUT-US {
-    padding-top: 12vh;
-    
+    padding-top: 6vh;
+    height: max-content;
+
 }
 
 #PRODUCTS {
     height: 100vh;
     background-image: url("img/wood.jpg");
     background-color: #cccccc;
-    height:100%;
-  
- 
-    background-size:cover;
+    height: 100%;
+
+
+    background-size: cover;
     position: relative;
-    
+
 }
 
 * {
     box-sizing: border-box
 }
 
-/* Slideshow container */
+
 .slideshow-container {
     width: 100%;
     position: relative;
@@ -192,15 +299,16 @@ html {
 }
 
 
-/* Hide the images by default */
+
 .mySlides {
     display: none;
 }
-a{
+
+a {
     text-decoration: none;
     color: #000;
 }
-/* Next & previous buttons */
+
 .prev,
 .next {
     cursor: pointer;
@@ -217,19 +325,18 @@ a{
     user-select: none;
 }
 
-/* Position the "next button" to the right */
+
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+
 .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Caption text */
 .text {
     color: #f2f2f2;
     font-size: 130%;
@@ -240,7 +347,6 @@ a{
     text-align: center;
 }
 
-/* Number text (1/3 etc) */
 .numbertext {
     color: #f2f2f2;
     font-size: 12px;
@@ -249,7 +355,6 @@ a{
     top: 0;
 }
 
-/* The dots/bullets/indicators */
 .dot {
     cursor: pointer;
     height: 15px;
@@ -267,7 +372,7 @@ a{
     background-color: #717171;
 }
 
-/* Fading animation */
+
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
@@ -322,5 +427,75 @@ a{
         bottom: 15%;
     }
 
+}
 
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.column-3 {
+    float: left;
+    width: 50%;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 8px;
+}
+
+
+
+.md {
+    font: 3em sans-serif !important;
+}
+
+.card-3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+
+}
+
+.column-3 {
+    width: 100%;
+
+}
+
+.container {
+    padding: 0 16px;
+
+
+
+
+}
+
+.gh {
+    height: 250vh;
+}
+
+.container-3::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title-3 {
+    color: grey;
+}
+
+.button-3 {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button-3:hover {
+    background-color: #555;
 }

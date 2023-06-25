@@ -48,3 +48,4 @@ function myFunction() {
     x[slideIndex - 1].style.display = "block";
     setTimeout(carousel, 14000); // Change image every 14 seconds
   }
+  // Initialize and add the map
