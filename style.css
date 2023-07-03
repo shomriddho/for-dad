@@ -109,6 +109,7 @@ main{
 
 .head {
     text-align: center;
+    height: 3em !important;
     font: 2.4em sans-serif;
     font-weight: 900;
     background-color: rgb(243, 253, 130);
@@ -296,10 +297,6 @@ html {
     }
 }
 
-* {
-    box-sizing: border-box
-}
-
 
 .slideshow-container {
     width: 100%;
@@ -457,8 +454,8 @@ a {
 }
 
 .main-men{
-    padding: 10%;
-    background-image:url('img/woodbig.jpg');
+    padding: 15%;
+    background-image:url('img/wood.jpg');
 }
 .card-3 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -510,7 +507,7 @@ a {
     background-color: #555;
 }
 .card-3{
-    padding: 1%;
+    padding: 2%;
     background-color: #ffffff;
     margin: 12px;
 }
