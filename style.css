@@ -1,390 +1,355 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caveat&family=La+Belle+Aurore&family=Pacifico&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caveat&family=La+Belle+Aurore&family=Pacifico&display=swap);
+
+.topnav,
+main {
+    overflow: hidden
+}
+
+#SERVICES,
+#SOLUTION {
+    font-family: Caveat;
+    background-image: url("img/img15.jpg");
+    height: 150vh
+}
+
+#CONTACT-US,
+#SERVICES,
+#SOLUTION {
+    height: 150vh
+}
+
+#map,
+.line,
+.topnav {
+    width: 100%
+}
+
+.uc,
+body {
+    margin: 0
+}
+
+#PRODUCTS,
+#SERVICES,
+#SOLUTION {
+    background-color: #ccc;
+    background-size: cover
+}
+
+.topnav a,
+a {
+    text-decoration: none;
+    color: #000
+}
+
+.button,
+.button-3,
+.head,
+.khata-text,
+.text,
+.topnav a {
+    text-align: center
+}
 
 body {
-    margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
+    box-sizing: border-box
+}
 
-}
-main{
-    overflow: hidden;
-}
 .topnav {
-    overflow: hidden;
-    background-color: #ffffff;
+    background-color: #fff;
     padding-left: 30px;
     padding-right: 32px;
-    border-bottom: #000000 solid 3px;
-    color: white;
-    box-shadow: 2px 2px 6px #000000;
+    border-bottom: 3px solid #000;
+    color: #fff;
+    box-shadow: 2px 2px 6px #000;
     position: fixed;
-
-    width: 100%;
-    z-index: 100;
+    z-index: 100
 }
 
+#PRODUCTS,
+#SERVICES,
 #SOLUTION {
-    font-family: 'Caveat';
-    height: 150vh;
-    background-image: url("img/img15.jpg");
-    background-color: #cccccc;
-
-
-
-    background-size: cover;
-    position: relative;
-
+    position: relative
 }
 
 #SERVICES {
-    font-family: 'Caveat';
-    height: 150vh;
-    background-image: url("img/img15.jpg");
-    background-color: #cccccc;
-
-    font-size: 2em;
-
-    background-size: cover;
-    position: relative;
-
-
-
+    font-size: 2em
 }
 
 #map {
-    height: 400px;
-    width: 100%;
+    height: 400px
 }
-
-#CONTACT-US {
-    height: 150vh;
-}
-
 
 .khata {
-
-    height: 200vh;
-
+    height: 200vh
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width:720px) {
     h1 {
-        height: 1em !important;
+        height: 1em !important
     }
 }
 
 .line {
     height: 5vh;
-    width: 100%;
     font-size: 2.3em;
-    text-decoration: none;
-
+    text-decoration: none
 }
 
 .line-box {
-    border-top: 2px solid black;
-
+    border-top: 2px solid #000
 }
 
 .topnav a {
     float: right;
     display: block;
-    color: #000000;
-    text-align: center;
     padding: 32px 2%;
-    text-decoration: none;
     font-size: 19px;
-    border: 1px solid rgb(0, 0, 0);
-
-    box-shadow: 7px 1px 20px black;
+    border: 1px solid #000;
+    box-shadow: 7px 1px 20px #000
 }
 
-
 .topnav a:hover {
-    background-color: rgba(0, 204, 255, 0.797);
-
-
+    background-color: rgba(0, 204, 255, .797)
 }
 
 .head {
-    text-align: center;
     height: 3em !important;
-    font: 2.4em sans-serif;
-    font-weight: 900;
-    background-color: rgb(243, 253, 130);
-    box-shadow: 8px 20px 9px black;
-    padding-top: 1%;
+    font: 900 2.4em sans-serif;
+    background-color: #f3fd82;
+    box-shadow: 8px 20px 9px #000;
+    padding-top: 1%
 }
 
 .uc {
     transform: rotate(3deg);
-    margin: 0;
     width: 23.5% !important;
-    background-color: rgb(246, 98, 98) !important;
+    background-color: #f66262 !important
 }
 
 .column {
     float: left;
     width: 24%;
-
-    padding: 10px;
-    background-color: rgb(243, 253, 130);
-    box-shadow: -20px -2px 20px 3px black;
     padding: 3%;
+    background-color: #f3fd82;
+    box-shadow: -20px -2px 20px 3px #000;
     margin-bottom: 5vh;
-    margin-left: 1%;
-
-
+    margin-left: 1%
 }
 
 .list {
-    font-size: 2.3em;
+    font-size: 2.3em
 }
 
 .row-2 {
-    height: 40vh;
+    height: 40vh
 }
 
 .khata-text {
-    text-align: center;
     padding: 15px;
-    font-size: 2.5em;
+    font-size: 2.5em
 }
-
-@media screen and (max-width: 1000px) {
-    .column {
-        width: 99% !important;
-        transform: rotate(0deg) !important;
-    }
-}
-
-
 
 .row:after {
     content: "";
     display: table;
-
-    clear: both;
+    clear: both
 }
 
+.mySlides,
 .topnav .icon {
-    display: none;
-}
-
-@media screen and (max-width: 1000px) {
-    .topnav a:not(:first-child) {
-        display: none;
-    }
-
-    .topnav a.icon {
-        float: right;
-        display: block;
-    }
+    display: none
 }
 
 html {
-    scroll-behavior: smooth;
-
+    scroll-behavior: smooth
 }
-
 
 .column-2 {
     float: left;
     width: 33.3%;
     margin-bottom: 16px;
-    padding: 0 8px;
+    padding: 0 8px
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width:850px) {
     .column-2 {
         width: 100%;
-        display: block;
+        display: block
     }
 
     .row-2 {
         height: 90vh;
-        width: 100%;
-
+        width: 100%
     }
+}
+
+.button,
+.button-3,
+.dot {
+    cursor: pointer;
+    display: inline-block
 }
 
 .fake {
     margin: 0;
-    padding: 0;
+    padding: 0
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2)
 }
 
-.container {
-    padding: 0 16px;
-}
-
+.container-3::after,
 .container::after,
 .row::after {
     content: "";
     clear: both;
-    display: table;
+    display: table
 }
 
-.title-2 {
-    color: grey;
+.title-2,
+.title-3 {
+    color: grey
 }
 
-.button {
+.button,
+.button-3 {
     border: none;
     outline: 0;
-    display: inline-block;
     padding: 8px;
-    color: white;
+    color: #fff;
     background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
+    width: 100%
 }
 
+.button-3:hover,
 .button:hover {
-    background-color: #555;
+    background-color: #555
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width:1000px) {
+    .column {
+        width: 99% !important;
+        transform: rotate(0) !important
+    }
+
+    .topnav a:not(:first-child) {
+        display: none
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block
+    }
+
     .topnav.responsive {
-        position: relative;
+        position: relative
     }
 
     .topnav.responsive .icon {
         position: absolute;
         right: 0;
-        top: 0;
+        top: 0
     }
 
     .topnav.responsive a {
         float: none;
         display: block;
-        text-align: left;
+        text-align: left
     }
-
-
 }
 
 #ABOUT-US {
     padding-top: 6vh;
-    height: max-content;
-
+    height: max-content
 }
 
 #PRODUCTS {
-
     background-image: url("img/woodbig.jpg");
-    background-color: #cccccc;
-    height: 100%;
-    background-size: cover;
-    position: relative;
-
+    height: 100%
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width:575px) {
     #PRODUCTS {
         background-image: url("img/wood.jpg");
-        background-color: #cccccc;
+        background-color: #ccc;
         height: 100%;
-
-
         background-size: cover;
-        position: relative;
+        position: relative
     }
 }
-
 
 .slideshow-container {
     width: 100%;
     position: relative;
-
     z-index: 0;
-    box-shadow: 0px 1px 20px 3px #000000;
-
+    box-shadow: 0 1px 20px 3px #000
 }
 
-
-
-.mySlides {
-    display: none;
-}
-
-a {
-    text-decoration: none;
-    color: #000;
-}
-
-.prev,
-.next {
+.next,
+.prev {
     cursor: pointer;
     position: absolute;
     top: 50%;
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: white;
-    font-weight: bold;
+    color: #fff;
+    font-weight: 700;
     font-size: 18px;
-    transition: 0.6s ease;
+    transition: .6s;
     border-radius: 0 3px 3px 0;
-    user-select: none;
+    user-select: none
 }
 
+.numbertext,
+.text {
+    color: #f2f2f2;
+    padding: 8px 12px;
+    position: absolute
+}
 
 .next {
     right: 0;
-    border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px
 }
 
-
-.prev:hover,
-.next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+.next:hover,
+.prev:hover {
+    background-color: rgba(0, 0, 0, .8)
 }
 
 .text {
-    color: #f2f2f2;
     font-size: 130%;
-    padding: 8px 12px;
-    position: absolute;
     bottom: 30%;
-    width: 100%;
-    text-align: center;
+    width: 100%
 }
 
 .numbertext {
-    color: #f2f2f2;
     font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
+    top: 0
 }
 
 .dot {
-    cursor: pointer;
     height: 15px;
     width: 15px;
-    margin: 0 2px;
+    margin: 0 2px 7vh;
     background-color: #bbb;
     border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-    margin-bottom: 7vh;
+    transition: background-color .6s
 }
 
 .active,
 .dot:hover {
-    background-color: #717171;
+    background-color: #717171
 }
-
 
 .fade {
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 1.5s
 }
 
 @keyframes fade {
@@ -398,116 +363,69 @@ a {
 }
 
 .text h1 {
-    font-size: 335%;
-
+    font-size: 335%
 }
 
-@media screen and (max-width: 942px) {
-
+@media screen and (max-width:942px) {
     .text h1 {
-        font-size: 265%;
+        font-size: 265%
     }
 
     .text {
         font-size: 100%;
-        bottom: 5%;
-
+        bottom: 5%
     }
-
-
 }
 
-@media screen and (max-width: 675px) {
+@media screen and (max-width:675px) {
     .text h1 {
-        font-size: 235%;
+        font-size: 235%
     }
 
     .text {
         font-size: 85%;
-        bottom: 25%;
-
+        bottom: 25%
     }
-
 }
 
-@media screen and (max-width: 603px) {
+@media screen and (max-width:603px) {
     .text {
         font-size: 60%;
-        bottom: 15%;
+        bottom: 15%
     }
-
 }
 
 *,
-*:before,
-*:after {
-    box-sizing: inherit;
+:after,
+:before {
+    box-sizing: inherit
 }
 
 .column-3 {
     float: left;
-    width: 50%;
     margin-bottom: 16px;
     display: flex;
     justify-content: flex-end;
     padding: 0 8px;
+    width: 100%
 }
 
-.main-men{
+.main-men {
     padding: 15%;
-    background-image:url('img/wood.jpg');
-}
-.card-3 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
-
-}
-
-.column-3 {
-    width: 100%;
-
+    background-image: url('img/wood.jpg')
 }
 
 .container {
-    padding: 0 16px;
-
-
-
-
+    padding: 0 16px
 }
 
 .gh {
-    height: 250vh;
+    height: 250vh
 }
 
-.container-3::after,
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.title-3 {
-    color: grey;
-}
-
-.button-3 {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-}
-
-.button-3:hover {
-    background-color: #555;
-}
-.card-3{
+.card-3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
     padding: 2%;
-    background-color: #ffffff;
-    margin: 12px;
+    background-color: #fff;
+    margin: 12px
 }
