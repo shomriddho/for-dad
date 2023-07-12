@@ -17,6 +17,9 @@
 .sc2{-webkit-text-stroke:0.015em transparent;text-shadow:none;}
 .sc0{-webkit-text-stroke:0.015em rgb(0,0,0);text-shadow:none;}
 }
+a{
+    font: 1.5em sans-serif;
+}
 .ws0{word-spacing:0.000000px;}
 ._0{margin-left:-1.415375px;}
 .fc2{color:rgb(31,73,125);}

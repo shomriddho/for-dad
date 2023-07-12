@@ -1,5 +1,11 @@
 @import url(https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caveat&family=La+Belle+Aurore&family=Pacifico&display=swap);
 
+.line,
+.topnav a,
+a {
+    text-decoration: none
+}
+
 .topnav,
 main {
     overflow: hidden
@@ -8,8 +14,7 @@ main {
 #SERVICES,
 #SOLUTION {
     font-family: Caveat;
-    background-image: url("img/img15.jpg");
-    height: 150vh
+    background-image: url("img/img15.jpg")
 }
 
 #CONTACT-US,
@@ -33,12 +38,12 @@ body {
 #SERVICES,
 #SOLUTION {
     background-color: #ccc;
-    background-size: cover
+    background-size: cover;
+    position: relative
 }
 
 .topnav a,
 a {
-    text-decoration: none;
     color: #000
 }
 
@@ -68,12 +73,6 @@ body {
     z-index: 100
 }
 
-#PRODUCTS,
-#SERVICES,
-#SOLUTION {
-    position: relative
-}
-
 #SERVICES {
     font-size: 2em
 }
@@ -94,8 +93,7 @@ body {
 
 .line {
     height: 5vh;
-    font-size: 2.3em;
-    text-decoration: none
+    font-size: 2.3em
 }
 
 .line-box {
@@ -428,4 +426,24 @@ html {
     padding: 2%;
     background-color: #fff;
     margin: 12px
+}
+
+.my-note {
+    height: 50% !important;
+    font: 900 2.4em sans-serif;
+    background-color: #f3fd82;
+    box-shadow: -20px 0 20px 6px #000;
+    padding: 2%;
+    margin-top: 12%;
+    margin-left: 8%;
+    margin-bottom: 5%
+}
+
+.sdfghj {
+    color: #00f;
+    text-decoration: underline
+}
+
+.af {
+    background-color: #c6f9f9 !important
 }

@@ -1,51 +1,19 @@
-body{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    /* The image used */
-    background-image: url("/img/img14.webp");
-    color: white;
-    /* Full height */
-    width: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-}
-.back{
-    color: rgb(47, 47, 253);
-    text-decoration: none;
-    font: 1.5em sans-serif;
-    padding: 1%;
-
-}
-a{
-    text-decoration: none;
-}
 main{
-    z-index: 109;
-    margin-top: 40vh;
-    width: 100%;
-    height: 100vh;
-   
-    
-    background-color: azure;
+	overflow: hidden;
+	padding: 10%;
+	
 }
-
-h1{
-    padding-top: 2%;
-
-    font-size: 2.5rem;
-    color: #000;
-    text-align: center;
-    font-family: sans-serif;
+img{
+	background-color: rgb(174, 186, 197);
+	padding: 4%;
+	margin-top: 20px;
+	
+	margin-bottom: 20px;
+	box-shadow: 2px 2px 2px black;
 }
 p{
-    
-    font: 1.2em sans-serif;
-    text-align: center;
-    padding: 3%;
-    color: #000;
+	font: 1em sans-serif;
+}
+h1{
+	font: 2em sans-serif;
 }
