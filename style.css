@@ -300,8 +300,12 @@ html {
 }
 
 #PRODUCTS {
-    background-image: url("img/woodbig.avif");
-    height: 100%
+    background-image: url("img/woodbig.jpg");
+    height: 100%;
+
+    @supports (background-image: url('img/woodbig.avif')) {
+    background-image: url('img/woodbig.avif');
+    }
 }
 
 @media screen and (max-width:575px) {
@@ -444,7 +448,7 @@ html {
 
 .main-men {
     padding: 15%;
-    background-image: url('img/wood.jpg')
+    background-image: url('img/wood.avif')
 }
 
 .container {
