@@ -11,6 +11,7 @@ body{
     /* The image used */
     background-image: url("/img/img21.jpeg");
     color: white;
+ 
     /* Full height */
     width: 100%;
     z-index: 0;
@@ -20,40 +21,47 @@ body{
     background-size: cover;
   
 }
+main{
+  overflow: hidden;
+}
 .main-h1{
-    font: 8vw sans-serif;
+    font: 7.2em sans-serif;
     color: black;
-    font-weight: 900;
+    font-weight: 900 !important;
     text-align: center;
     margin-top: 5%;
 }
 .main-h3{
-    font: 2.6vw sans-serif;
+    font: 2.2em sans-serif;
     color: black;
-    font-weight: 500;
+    font-weight: 500 !important;
     text-align: center;
     margin-top: 0.2%;
 }
 .main-p{
-    font: 2vw sans-serif;
+    font: 1.4em sans-serif;
     color: rgb(85, 85, 85);
-    font-weight: 500;
+    font-weight: 500 !important;
     text-align: center;
     margin-top: 0.3%;
     margin-left: 2vw;
     margin-right: 2vw;
 }
-  
+.row{
+  margin-top: 3%;
+}
   /* Create three equal columns that floats next to each other */
   .column {
     float: left;
     width: 30%;
-    padding: 10px;
+    padding: 2%;
     margin-left: 1.555%;
     margin-right: 1.555%;
     background-color: white;
+    margin-bottom: 15%;
     margin-top: 0.5%;
-     /* Should be removed. Only for demonstration */
+
+
   }
   
   /* Clear floats after the columns */
@@ -68,13 +76,40 @@ body{
     .column {
       width: 100%;
     }
+    .main-h1{
+      font: 6.2em sans-serif;
+   
+  }
+  .main-h3{
+      font: 2em sans-serif;
+     
+  }
+  .main-p{
+      font: 1.3em sans-serif;
+     
+  }
+
   }
 .col-text{
-    font: 1.3em sans-serif;
+    font: 2em sans-serif;
     color: #000;
 }
 .col-p{
-    font: 1em sans-serif;
+    font: 1.1em sans-serif;
     margin-top: 2%;
     color: #000;
+}
+.col-text::before{
+  content: "";
+  display: block;
+  width: 20%;
+  height: 1vh;
+  margin-bottom: 20px;
+  background-color: blue;
+}
+li{
+  font: 1.1em sans-serif;
+  margin-top: 2%;
+  color: #000;
+  margin-left: 15%;
 }
