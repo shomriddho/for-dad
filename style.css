@@ -15,26 +15,30 @@ main {
 #SOLUTION {
     font-family: Caveat;
     background-image: url("img/img15.jpg")
-
 }
-.list > a{
+
+.list>a {
     color: #000;
 }
+
 #CONTACT-US,
 #SERVICES,
 #SOLUTION {
     height: 250vh;
 }
+
 @media screen and (max-width:720px) {
-    #SOLUTION{
+    #SOLUTION {
         height: 280vh;
     }
 }
+
 @media screen and (max-width:390px) {
-    #SOLUTION{
+    #SOLUTION {
         height: 340vh;
     }
 }
+
 #map,
 .line,
 .topnav {
@@ -252,11 +256,12 @@ html {
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
-  }
-  
-  #myBtn:hover {
+}
+
+#myBtn:hover {
     background-color: #555;
-  }
+}
+
 .button-3:hover,
 .button:hover {
     background-color: #555
@@ -300,22 +305,24 @@ html {
 }
 
 #PRODUCTS {
-    background-image: url("img/woodbig.jpg");
+    background-color: white;
     height: 100%;
 
-    @supports (background-image: url('img/woodbig.avif')) {
-    background-image: url('img/woodbig.avif');
-    }
 }
 
 @media screen and (max-width:575px) {
     #PRODUCTS {
         background-image: url("img/wood.avif");
-        background-color: #ccc;
+        /* background-color: #ccc; */
         height: 100%;
         background-size: cover;
         position: relative
     }
+}
+
+.pattern5 {
+    background-image: repeating-linear-gradient(90deg, rgb(31, 13, 13), rgb(12, 3, 3) 1px, rgb(0, 0, 0) 3px, rgb(0, 213, 255) 12px);
+    background-size: 16px;
 }
 
 .slideshow-container {
@@ -481,7 +488,7 @@ html {
     color: #00f;
     text-decoration: underline
 }
- 
+
 .af {
     background-color: #c6f9f9 !important
 }
@@ -569,10 +576,12 @@ html {
 .ten a {
     color: #000;
 }
-.eleven{
+
+.eleven {
     background-image: url('./Products/PROFILE MODE CLOTHING (1)/target001.png');
     background-size: cover;
 }
+
 .eleven a {
     color: #000;
 }
