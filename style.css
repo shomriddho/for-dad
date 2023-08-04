@@ -312,12 +312,11 @@ html {
 
 @media screen and (max-width:575px) {
     #PRODUCTS {
-        background-image: url("img/wood.avif");
+   
         
-        /* background-color: #ccc; */
+     
         height: 100%;
-        background-size: cover;
-        position: relative
+    
     }
 }
 
