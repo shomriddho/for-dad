@@ -219,7 +219,7 @@ html {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2)
 }
 
-.container-3::after,
+.container-3::after,@
 .container::after,
 .row::after {
     content: "";
@@ -305,18 +305,14 @@ html {
 }
 
 #PRODUCTS {
-    background-color: white;
+ 
     height: 100%;
 
 }
 
 @media screen and (max-width:575px) {
     #PRODUCTS {
-   
-        
-     
         height: 100%;
-    
     }
 }
 
