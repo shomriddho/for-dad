@@ -31,7 +31,7 @@ main {
 #SERVICES,
 #SOLUTION {
     font-family: Caveat;
-    background-image: url("img/img15.webp")
+    background-image: url(img/img15.webp)
 }
 
 .eight a,
@@ -51,8 +51,7 @@ a {
 
 #CONTACT-US,
 #SERVICES,
-#SOLUTION,
-.gh {
+#SOLUTION {
     height: 250vh
 }
 
@@ -130,10 +129,6 @@ body {
 .line {
     height: 5vh;
     font-size: 2.3em
-}
-
-.line-box {
-    border-top: 2px solid #000
 }
 
 .topnav a {
@@ -227,11 +222,6 @@ html {
 .dot {
     cursor: pointer;
     display: inline-block
-}
-
-.fake {
-    margin: 0;
-    padding: 0
 }
 
 .card {
@@ -392,7 +382,6 @@ html {
     transition: background-color .6s
 }
 
-.active,
 .dot:hover {
     background-color: #717171
 }
@@ -445,26 +434,6 @@ html {
     }
 }
 
-*,
-:after,
-:before {
-    box-sizing: inherit
-}
-
-.column-3 {
-    float: left;
-    margin-bottom: 16px;
-    display: flex;
-    justify-content: flex-end;
-    padding: 0 8px;
-    width: 100%
-}
-
-.main-men {
-    padding: 15%;
-    background-image: url('img/wood.avif')
-}
-
 .container {
     padding: 0 16px
 }
@@ -497,7 +466,7 @@ html {
 }
 
 .one {
-    background-image: url('img/img6.webp')
+    background-image: url(img/img6.webp)
 }
 
 .one a {
@@ -506,36 +475,36 @@ html {
 }
 
 .two {
-    background-image: url('img/img8.webp')
+    background-image: url(img/img8.webp)
 }
 
 .three {
-    background-image: url('img/img9.webp')
+    background-image: url(img/img9.webp)
 }
 
 .four {
-    background-image: url('img/img10.webp');
+    background-image: url(img/img10.webp);
     background-repeat: no-repeat
 }
 
 .five {
-    background-image: url('img/img11.webp')
+    background-image: url(img/img11.webp)
 }
 
 .six {
-    background-image: url('img/img12.webp')
+    background-image: url(img/img12.webp)
 }
 
 .seven {
-    background-image: url("/img/img7.avif")
+    background-image: url(/img/img7.avif)
 }
 
 .eight {
-    background-image: url("/img/img13.webp")
+    background-image: url(/img/img13.webp)
 }
 
 .nine {
-    background-image: url('img/traget1.avif')
+    background-image: url(img/traget1.avif)
 }
 
 .nine a {
@@ -548,9 +517,318 @@ html {
 }
 
 .ten {
-    background-image: url('./Products/RBM TRIMS PROFILE.html (1)/bg1.png')
+    background-image: url('Products/RBM TRIMS PROFILE.html (1)/bg1.png')
 }
 
 .eleven {
-    background-image: url('./Products/PROFILE MODE CLOTHING (1)/target001.png')
+    background-image: url('Products/PROFILE MODE CLOTHING (1)/target001.png')
+}
+
+*,
+:after,
+:before {
+    box-sizing: inherit
+}
+
+.column-p {
+    float: left;
+    color: #000;
+    width: 50%;
+    margin-bottom: 16px;
+    padding: 60px
+}
+
+@media screen and (max-width:850px) {
+    .column-p {
+        width: 100%;
+        display: block
+    }
+}
+
+.card-p {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2)
+}
+
+.container-p {
+    padding: 0 16px
+}
+
+.container-p::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table
+}
+
+.title-p {
+    color: grey
+}
+
+.button-p {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%
+}
+
+.button-p:hover {
+    background-color: #555
+}
+
+
+@font-face {
+    font-family: FontAwesome;
+    src: url(../fonts/fontawesome-webfont.eot?v=4.7.0);
+    src: url(../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format('embedded-opentype'), url(../fonts/fontawesome-webfont.woff2?v=4.7.0) format('woff2'), url(../fonts/fontawesome-webfont.woff?v=4.7.0) format('woff'), url(../fonts/fontawesome-webfont.ttf?v=4.7.0) format('truetype'), url(../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.fa-2x {
+    font-size: 2em
+}
+
+.fa-3x {
+    font-size: 3em
+}
+
+.fa-4x {
+    font-size: 4em
+}
+
+.fa-5x {
+    font-size: 5em
+}
+
+.fa-ul {
+    padding-left: 0;
+    margin-left: 2.14285714em;
+    list-style-type: none
+}
+
+.fa-ul>li {
+    position: relative
+}
+
+.fa-li {
+    position: absolute;
+    left: -2.14285714em;
+    width: 2.14285714em;
+    top: .14285714em;
+    text-align: center
+}
+
+.fa-border {
+    padding: .2em .25em .15em;
+    border: solid .08em #eee;
+    border-radius: .1em
+}
+
+@-webkit-keyframes fa-spin {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg)
+    }
+}
+
+@keyframes fa-spin {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg)
+    }
+}
+
+.fa-list-alt:before {
+    content: "\f022"
+}
+
+.fa-tag:before {
+    content: "\f02b"
+}
+
+.fa-font:before {
+    content: "\f031"
+}
+
+.fa-text-height:before {
+    content: "\f034"
+}
+
+.fa-text-width:before {
+    content: "\f035"
+}
+
+.fa-align-center:before {
+    content: "\f037"
+}
+
+.fa-list:before {
+    content: "\f03a"
+}
+
+.fa-image:before {
+    content: "\f03e"
+}
+
+.fa-chevron-up:before {
+    content: "\f077"
+}
+
+.fa-phone:before {
+    content: "\f095"
+}
+
+.fa-twitter:before {
+    content: "\f099"
+}
+
+.fa-facebook-f:before,
+.fa-facebook:before {
+    content: "\f09a"
+}
+
+.fa-github:before {
+    content: "\f09b"
+}
+
+.fa-wrench:before {
+    content: "\f0ad"
+}
+
+.fa-link:before {
+    content: "\f0c1"
+}
+
+.fa-cloud:before {
+    content: "\f0c2"
+}
+
+.fa-bars:before {
+    content: "\f0c9"
+}
+
+.fa-list-ul:before {
+    content: "\f0ca"
+}
+
+.fa-list-ol:before {
+    content: "\f0cb"
+}
+
+.fa-linkedin:before {
+    content: "\f0e1"
+}
+
+.fa-legal:before {
+    content: "\f0e3"
+}
+
+.fa-desktop:before {
+    content: "\f108"
+}
+
+.fa-github-alt:before {
+    content: "\f113"
+}
+
+.fa-html5:before {
+    content: "\f13b"
+}
+
+.fa-css3:before {
+    content: "\f13c"
+}
+
+.fa-android:before {
+    content: "\f17b"
+}
+
+.fa-dribbble:before {
+    content: "\f17d"
+}
+
+.fa-bank:before,
+.fa-university:before {
+    content: "\f19c"
+}
+
+.fa-google:before {
+    content: "\f1a0"
+}
+
+.fa-database:before {
+    content: "\f1c0"
+}
+
+.fa-support:before {
+    content: "\f1cd"
+}
+
+.fa-at:before {
+    content: "\f1fa"
+}
+
+.fa-server:before {
+    content: "\f233"
+}
+
+.fa-medium:before {
+    content: "\f23a"
+}
+
+.fa-500px:before {
+    content: "\f26e"
+}
+
+.fa-industry:before {
+    content: "\f275"
+}
+
+.fa-map:before {
+    content: "\f279"
+}
+
+.fa-audio-description:before {
+    content: "\f29e"
+}
+
+.fa-fa:before,
+.fa-font-awesome:before {
+    content: "\f2b4"
+}
+
+.fa-address-card:before {
+    content: "\f2bb"
+}
+
+.fa-id-card:before {
+    content: "\f2c2"
+}
+
+.fa-s15:before {
+    content: "\f2cd"
 }
