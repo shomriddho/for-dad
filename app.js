@@ -46,7 +46,8 @@ function myFunction() {
     slideIndex++;
     if (slideIndex > x.length) { slideIndex = 1 }
     x[slideIndex - 1].style.display = "block";
-    setTimeout(carousel, 14000); // Change image every 14 seconds
+    
+    setTimeout(carousel, 12000); // Change image every 14 seconds
   }
   // Initialize and add the map
   let mybutton = document.getElementById("myBtn");

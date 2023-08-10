@@ -60,9 +60,9 @@ a {
         height: 280vh
     }
 
-    h1 {
+    /* h1 {
         height: 1em !important
-    }
+    } */
 }
 
 @media screen and (max-width:390px) {
@@ -134,8 +134,8 @@ body {
 .topnav a {
     float: right;
     display: block;
-    padding: 32px 2%;
-    font-size: 19px;
+    padding: 32px 1.1%;
+    font-size: 18px;
     border: 1px solid #000;
     box-shadow: 7px 1px 20px #000
 }
@@ -271,7 +271,7 @@ html {
     background-color: #555
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1200px) {
     .column {
         width: 99% !important;
         transform: rotate(0) !important
@@ -363,8 +363,8 @@ html {
 }
 
 .text {
-    font-size: 130%;
-    bottom: 30%;
+    font-size: 140%;
+    bottom: 15%;
     width: 100%
 }
 
@@ -402,28 +402,28 @@ html {
 }
 
 .text h1 {
-    font-size: 335%
+    font-size: 500%
 }
 
 @media screen and (max-width:942px) {
     .text h1 {
-        font-size: 265%
+        font-size: 390%
     }
 
     .text {
-        font-size: 100%;
-        bottom: 5%
+        font-size: 130%;
+       
     }
 }
 
 @media screen and (max-width:675px) {
     .text h1 {
-        font-size: 235%
+        font-size: 300%
     }
 
     .text {
-        font-size: 85%;
-        bottom: 25%
+        font-size: 100%;
+        bottom: 15%
     }
 }
 
@@ -535,10 +535,10 @@ html {
     color: #000;
     width: 50%;
     margin-bottom: 16px;
-    padding: 60px
+    padding: 12%;
 }
 
-@media screen and (max-width:850px) {
+@media screen and (max-width:650px) {
     .column-p {
         width: 100%;
         display: block

@@ -10,7 +10,7 @@ body{
     padding: 0;
     /* The image used */
     
-    background-image: url("/img/img21.jpeg");
+    background-image: url("/img/img21.webp");
     color: white;
  
     /* Full height */
@@ -28,21 +28,21 @@ main{
   overflow: hidden;
 }
 .main-h1{
-    font: 7.2em sans-serif;
+    font: 7.4em sans-serif;
     color: black;
     font-weight: 900 !important;
     text-align: center;
     margin-top: 5%;
 }
 .main-h3{
-    font: 2.2em sans-serif;
+    font: 2.4em sans-serif;
     color: black;
     font-weight: 500 !important;
     text-align: center;
     margin-top: 0.2%;
 }
 .main-p{
-    font: 1.4em sans-serif;
+    font: 1.6em sans-serif;
     color: rgb(85, 85, 85);
     font-weight: 500 !important;
     text-align: center;
@@ -67,6 +67,7 @@ header{
     background-color: white;
     margin-bottom: 15%;
     margin-top: 0.5%;
+    
 
 
   }
