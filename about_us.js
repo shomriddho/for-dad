@@ -25,7 +25,7 @@
 //   let counter = setInterval(function () {
 //     startValue +=2;
 //     pvalueDisplay.textContent = startValue;
-//     if (startValue == endValue) {
+//     if (startValue = n w8jjkf0lg9fo8ixcfdt= endValue) {
 //       clearInterval(counter);
 //     }
 //   },duration);
