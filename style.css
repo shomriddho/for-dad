@@ -136,7 +136,7 @@ body {
 .head {
     height: 3em !important;
     font: 900 2.4em sans-serif;
-    background-color: #f3fd82;
+    background-color: #ffffff;
     box-shadow: 8px 20px 9px #000;
     padding-top: 1%
 }
@@ -272,13 +272,17 @@ html {
 
     .topnav a.icon {
         float: right;
-        display: block
+        display: block;
+        padding: 32px 1.1%
     }
 
     .topnav.responsive {
-        position: relative
+        position: fixed
     }
-
+    .topnav .normal-tag-a{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
     .topnav.responsive .icon {
         position: absolute;
         right: 0;

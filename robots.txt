@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap:https://aurevesolutions.netlify.app/sitemap.xml
