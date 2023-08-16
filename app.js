@@ -8,7 +8,7 @@ function myFunction() {
   }
 function ifoff() {
     var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
+    if (x.className === "responsive") {
       x.className -= " responsive";
     } else {
       x.className = "topnav";
