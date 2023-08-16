@@ -1,5 +1,32 @@
 @import url(https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caveat&family=La+Belle+Aurore&family=Pacifico&display=swap);
 
+.head,
+.topnav {
+    background-color: #fff
+}
+
+.sdfghj,
+.title-p {
+    text-decoration: underline
+}
+
+.button,
+.button-3,
+.button-p,
+.head,
+.khata-text,
+.text,
+.topnav a {
+    text-align: center
+}
+
+#myBtn,
+.button-p,
+.next,
+.prev {
+    cursor: pointer
+}
+
 #myBtn,
 .topnav {
     position: fixed
@@ -84,15 +111,6 @@ body {
     position: relative
 }
 
-.button,
-.button-3,
-.head,
-.khata-text,
-.text,
-.topnav a {
-    text-align: center
-}
-
 body {
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -100,7 +118,6 @@ body {
 }
 
 .topnav {
-    background-color: #fff;
     padding-left: 30px;
     padding-right: 32px;
     border-bottom: 3px solid #000;
@@ -136,7 +153,6 @@ body {
 .head {
     height: 3em !important;
     font: 900 2.4em sans-serif;
-    background-color: #ffffff;
     box-shadow: 8px 20px 9px #000;
     padding-top: 1%
 }
@@ -213,11 +229,13 @@ html {
     display: inline-block
 }
 
-.card {
+.card,
+.card-p {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2)
 }
 
 .container-3::after,
+.container-p::after,
 .container::after,
 .row::after {
     content: "";
@@ -249,13 +267,13 @@ html {
     outline: 0;
     background-color: #40f;
     color: #fff;
-    cursor: pointer;
     padding: 15px;
     border-radius: 4px
 }
 
 #myBtn:hover,
 .button-3:hover,
+.button-p:hover,
 .button:hover {
     background-color: #555
 }
@@ -279,10 +297,12 @@ html {
     .topnav.responsive {
         position: fixed
     }
-    .topnav .normal-tag-a{
+
+    .topnav .normal-tag-a {
         padding-top: 20px;
-        padding-bottom: 20px;
+        padding-bottom: 20px
     }
+
     .topnav.responsive .icon {
         position: absolute;
         right: 0;
@@ -294,6 +314,14 @@ html {
         display: block;
         text-align: left
     }
+}
+
+.material-symbols-sharp {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 200,
+  'opsz' 48
 }
 
 #ABOUT-US {
@@ -309,28 +337,22 @@ html {
     #PRODUCTS {
         height: 100%
     }
+
     .text h1 {
-        font-size: 270% !important;
+        font-size: 270% !important
     }
 
     .text {
         font-size: 120%;
         bottom: 15%
     }
-
 }
 
 .pattern5 {
     background-image: repeating-linear-gradient(90deg, #1f0d0d, #0c0303 1px, #000 3px, #00d5ff 12px)
 }
 
-.slideshow-container {
-    width: 100%;
-    height: 90vh;
-    position: relative;
-    z-index: 0;
-    box-shadow: 0 1px 20px 3px #000
-}
+.slideshow-container,
 .slideshow-container img {
     width: 100%;
     height: 90vh;
@@ -338,9 +360,9 @@ html {
     z-index: 0;
     box-shadow: 0 1px 20px 3px #000
 }
+
 .next,
 .prev {
-    cursor: pointer;
     position: absolute;
     top: 50%;
     width: auto;
@@ -435,9 +457,8 @@ html {
     }
 }
 
-
-
-.container {
+.container,
+.container-p {
     padding: 0 16px
 }
 
@@ -460,8 +481,7 @@ html {
 }
 
 .sdfghj {
-    color: #00f;
-    text-decoration: underline
+    color: #00f
 }
 
 .af {
@@ -548,25 +568,6 @@ html {
     }
 }
 
-.card-p {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2)
-}
-
-.container-p {
-    padding: 0 16px
-}
-
-.container-p::after,
-.row::after {
-    content: "";
-    clear: both;
-    display: table
-}
-
-.title-p {
-    color: grey
-}
-
 .button-p {
     border: none;
     outline: 0;
@@ -574,11 +575,5 @@ html {
     padding: 8px;
     color: #fff;
     background-color: #000;
-    text-align: center;
-    cursor: pointer;
     width: 100%
-}
-
-.button-p:hover {
-    background-color: #555
 }

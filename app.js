@@ -6,6 +6,14 @@ function myFunction() {
       x.className = "topnav";
     }
   }
+function ifoff() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className -= " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
   let slideIndex = 1;
   showSlides(slideIndex);
 
