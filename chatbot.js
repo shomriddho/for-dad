@@ -1,0 +1,2 @@
+
+(function (e, b, f) { var c, a = e.getElementsByTagName(b)[0]; if (e.getElementById(f)) { return } c = e.createElement(b); c.async = true; c.src = "https://s3.ap-south-1.amazonaws.com/conferbot.defaults/dist/v1/widget.min.js"; c.id = f; c.charset = "UTF-8"; a.parentNode.insertBefore(c, a); c.onload = function () { var d = window.ConferbotWidget("64dcbdea6e8e81184a9e91b2", "live_chat") } })(document, "script", "conferbot-js");
