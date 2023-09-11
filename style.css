@@ -1,3 +1,10 @@
+.button-p,
+.container,
+.next,
+.prev {
+    cursor: pointer
+}
+
 .head,
 .topnav {
     background-color: #fff
@@ -18,25 +25,15 @@
     text-align: center
 }
 
-.button-p,
-.next,
-.prev {
-    cursor: pointer
-}
-
 .topnav {
-    position: fixed
+    position: fixed;
+    width: 100%;
+    border-bottom: 3px solid #000;
+    box-shadow: 2px 2px 6px #000;
+    z-index: 100
 }
 
-.eight,
-.eleven,
-.five,
-.nine,
-.one,
-.seven,
-.ten,
-.three,
-.two {
+.three {
     background-size: cover
 }
 
@@ -56,17 +53,12 @@ main {
     background-image: url(img/img15.webp)
 }
 
-.eight a,
-.eleven a,
-.four a,
-.list>a,
-.ten a {
+.list>a {
     color: #000
 }
 
 .topnav,
 .topnav a,
-.two a,
 a {
     color: #fff
 }
@@ -89,10 +81,6 @@ a {
     }
 }
 
-.topnav {
-    width: 100%
-}
-
 .uc,
 body {
     margin: 0
@@ -112,13 +100,6 @@ body {
     box-sizing: border-box
 }
 
-.topnav {
-
-    border-bottom: 3px solid #000;
-    box-shadow: 2px 2px 6px #000;
-    z-index: 100
-}
-
 #SERVICES {
     font-size: 2em
 }
@@ -130,7 +111,7 @@ body {
 .topnav a {
     float: right;
     display: block;
-    padding: 32px 1.1%;
+    padding: 36px 1.1%;
     font-size: 18px;
     border: 1px solid #000;
     box-shadow: 7px 1px 20px #000
@@ -150,6 +131,7 @@ body {
 .uc {
     transform: rotate(3deg);
     width: 23.5% !important;
+    display: inline !important;
     background-color: #f66262 !important
 }
 
@@ -157,9 +139,14 @@ body {
     float: left;
     width: 24%;
     padding: 3%;
-    background-color: #f3fd82;
+    background: rgb(244,244,244);
+    background: -moz-radial-gradient(circle, rgba(244,244,244,1) 15%, rgba(215,215,215,1) 39%, rgba(200,198,198,1) 77%, rgb(236, 236, 236) 93%);
+    background: -webkit-radial-gradient(circle, rgba(244,244,244,1) 15%, rgba(215,215,215,1) 39%, rgba(200,198,198,1) 77%, rgb(236, 236, 236,1) 93%);
+    background: radial-gradient(circle, rgba(244,244,244,1) 15%, rgba(215,215,215,1) 39%, rgba(200,198,198,1) 77%, rgb(236, 236, 236,1) 93%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f4f4f4",endColorstr="#fffefe",GradientType=1);
     box-shadow: -20px -2px 20px 3px #000;
     margin-bottom: 5vh;
+    border: 2px solid black;
     font: 800 1.1em sans-serif !important;
     margin-left: 1%
 }
@@ -181,6 +168,13 @@ body {
     content: "";
     display: table;
     clear: both
+}
+
+.column a {
+    height: 20em;
+    color: #000;
+    display: block;
+    font-size: 1.3em
 }
 
 .mySlides,
@@ -212,8 +206,7 @@ html {
 }
 
 .button,
-.button-3,
-.dot {
+.button-3 {
     cursor: pointer;
     display: inline-block
 }
@@ -259,6 +252,10 @@ html {
         transform: rotate(0) !important
     }
 
+    .column a {
+        display: inline
+    }
+
     .topnav a:not(:first-child) {
         display: none
     }
@@ -269,25 +266,9 @@ html {
         padding: 32px 1.1%
     }
 
-    .topnav.responsive {
-        position: fixed
-    }
-
     .topnav .normal-tag-a {
-        padding-top: 20px;
-        padding-bottom: 20px
-    }
-
-    .topnav.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0
-    }
-
-    .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: left
+        padding-top: 10px;
+        padding-bottom: 10px
     }
 }
 
@@ -371,19 +352,6 @@ html {
     top: 0
 }
 
-.dot {
-    height: 15px;
-    width: 15px;
-    margin: 0 2px 7vh;
-    background-color: #bbb;
-    border-radius: 50%;
-    transition: background-color .6s
-}
-
-.dot:hover {
-    background-color: #717171
-}
-
 .fade {
     animation-name: fade;
     animation-duration: 1.5s
@@ -451,67 +419,12 @@ html {
     color: #00f
 }
 
-.af {
-    background-color: #c6f9f9 !important
-}
-
-.one {
-    background-image: url(img/img6.webp)
-}
-
-.one a {
-    color: #fff;
-    font-weight: 600
-}
-
-.two {
-    background-image: url(img/img8.webp)
-}
-
 .three {
     background-image: url(img/img9.webp)
 }
 
-.four {
-    background-image: url(img/img10.webp);
-    background-repeat: no-repeat
-}
-
-.five {
-    background-image: url(img/img11.webp)
-}
-
-.six {
-    background-image: url(img/img12.webp)
-}
-
-.seven {
-    background-image: url(/img/img7.webp)
-}
-
-.eight {
-    background-image: url(/img/img13.webp)
-}
-
-.nine {
-    background-image: url(img/traget1.webp)
-}
-
-.nine a {
-    color: #000;
-    font-weight: 900
-}
-
 .normal-tag-a {
     color: #000 !important
-}
-
-.ten {
-    background-image: url('Products/RBM TRIMS PROFILE.html (1)/bg1.png')
-}
-
-.eleven {
-    background-image: url('Products/PROFILE MODE CLOTHING (1)/target001.png')
 }
 
 *,
@@ -535,27 +448,16 @@ html {
     }
 }
 
+.button-p,
+.container {
+    display: inline-block
+}
+
 .button-p {
     border: none;
     outline: 0;
-    display: inline-block;
     padding: 8px;
     color: #fff;
     background-color: #000;
     width: 100%
-}
-
-.container {
-    display: inline-block;
-    cursor: pointer
-}
-
-.bar1,
-.bar2,
-.bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: #333;
-    margin: 6px 0;
-    transition: .4s
 }
